@@ -6,7 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
-import io.restassured.builder.RequestSpecBuilder;
+
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -14,59 +14,34 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.runner.RunWith;
-import pojo.AddPlace;
-import pojo.Location;
 
-import java.util.ArrayList;
-import java.util.List;
+import resources.TestDataBuilder;
+import resources.Utils;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Cucumber.class)
-public class StepDefinitions {
+public class StepDefinitions extends Utils{
 
     ResponseSpecification resSpec;
     RequestSpecification response;
     Response res;
     String resp;
     JsonPath js;
+    TestDataBuilder testData = new TestDataBuilder();
 
     @Given("^Add place payload$")
     public void add_place_payload() throws Throwable {
 
-        AddPlace a = new AddPlace();
-        a.setAccuracy(50);
-        a.setAddress("29, side layout, cohen 09");
-        a.setLanguage("French-IN");
-        a.setPhone("(+91) 983 893 3937");
-        a.setName("Frontline house");
-        a.setWebsite("http:/google.com");
-
-        List<String> myList = new ArrayList<String>();
-        myList.add("shoe park");
-        myList.add("shop");
-
-        a.setType(myList);
-
-        Location l = new Location();
-        l.setLat(-38.383494);
-        l.setLng(33.427362);
-
-        a.setLocation(l);
-
-        // request builder build
-        RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").
-                addQueryParam("key","qaclick123")
-                .setContentType(ContentType.JSON).build();
 
         // response builder build
         resSpec = (ResponseSpecification) new ResponseSpecBuilder().
                 expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
         // request builder used
-        response=given().spec(req)
-                .body(a);
+        response=given().spec(requestSpecification())
+                .body(testData.addPlacePayload());
 
     }
 
