@@ -79,7 +79,6 @@ public class StepDefinitions {
 
     @Then("^The API call with success status code 200$")
     public void the_api_call_with_success_status_code_200() throws Throwable {
-            
         assertEquals(res.getStatusCode(),200);
     }
 
