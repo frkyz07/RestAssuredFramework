@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Sat, 22 Jul 2023 12:21:00 GMT
+Date: Sat, 22 Jul 2023 13:04:57 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +40,8 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "0ba8d3d45d4ff27524f5816838d991fe",
+    "place_id": "fd11270d66a2ca542d0db99f06f81d3d",
     "scope": "APP",
-    "reference": "148ed2db9bac2cd872f6809c90ee1a7d148ed2db9bac2cd872f6809c90ee1a7d",
-    "id": "148ed2db9bac2cd872f6809c90ee1a7d"
+    "reference": "acaada77a851a4375ef13fe5657f6adcacaada77a851a4375ef13fe5657f6adc",
+    "id": "acaada77a851a4375ef13fe5657f6adc"
 }

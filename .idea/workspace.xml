@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- modifying the framework">
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- adding the logging.text file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689939946817</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- adding the logging.text file">
+      <created>1690028948003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690028948005</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +130,7 @@
     <MESSAGE value="- Framework created" />
     <MESSAGE value="- Configuring test with cucumber" />
     <MESSAGE value="- modifying the framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="- modifying the framework" />
+    <MESSAGE value="- adding the logging.text file" />
+    <option name="LAST_COMMIT_MESSAGE" value="- adding the logging.text file" />
   </component>
 </project>
