@@ -34,11 +34,6 @@ public class StepDefinitions extends Utils{
     @Given("^Add place payload$")
     public void add_place_payload() throws Throwable {
 
-
-        // response builder build
-        resSpec = (ResponseSpecification) new ResponseSpecBuilder().
-                expectStatusCode(200).expectContentType(ContentType.JSON).build();
-
         // request builder used
         response=given().spec(requestSpecification())
                 .body(testData.addPlacePayload());
@@ -47,6 +42,9 @@ public class StepDefinitions extends Utils{
 
     @When("^User calls \"([^\"]*)\"  with post http request$")
     public void user_calls_something_with_post_http_request(String strArg1) throws Throwable {
+
+        resSpec = (ResponseSpecification) new ResponseSpecBuilder().
+                expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
         res = response.when().post("/maps/api/place/add/json")
                 .then().spec(resSpec).extract().response();
