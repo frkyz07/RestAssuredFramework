@@ -16,18 +16,18 @@ Body:
         "lng": 33.427362
     },
     "accuracy": 50,
-    "name": "Frontline house",
+    "name": "Ahouse",
     "phone": "(+91) 983 893 3937",
-    "address": "29, side layout, cohen 09",
+    "address": "World Cross Center",
     "website": "http:/google.com",
-    "language": "French-IN",
+    "language": "English",
     "type": [
         "shoe park",
         "shop"
     ]
 }
 HTTP/1.1 200 OK
-Date: Sat, 22 Jul 2023 13:04:57 GMT
+Date: Sat, 22 Jul 2023 13:33:14 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +40,8 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "fd11270d66a2ca542d0db99f06f81d3d",
+    "place_id": "53052ccfa1521cffa794d4b7fb887f70",
     "scope": "APP",
-    "reference": "acaada77a851a4375ef13fe5657f6adcacaada77a851a4375ef13fe5657f6adc",
-    "id": "acaada77a851a4375ef13fe5657f6adc"
+    "reference": "7a206104d13c3e32370d719930ddd6427a206104d13c3e32370d719930ddd642",
+    "id": "7a206104d13c3e32370d719930ddd642"
 }

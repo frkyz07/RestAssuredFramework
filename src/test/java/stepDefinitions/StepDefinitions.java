@@ -31,12 +31,12 @@ public class StepDefinitions extends Utils{
     JsonPath js;
     TestDataBuilder testData = new TestDataBuilder();
 
-    @Given("^Add place payload$")
-    public void add_place_payload() throws Throwable {
+    @Given("Add place payload with {string} {string} {string}")
+    public void add_place_payload(String name, String language, String address) throws Throwable {
 
         // request builder used
         response=given().spec(requestSpecification())
-                .body(testData.addPlacePayload());
+                .body(testData.addPlacePayload(name,language,address));
 
     }
 
