@@ -15,6 +15,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.runner.RunWith;
 
+import resources.APIResources;
 import resources.TestDataBuilder;
 import resources.Utils;
 
@@ -40,14 +41,21 @@ public class StepDefinitions extends Utils{
 
     }
 
-    @When("^User calls \"([^\"]*)\"  with post http request$")
-    public void user_calls_something_with_post_http_request(String strArg1) throws Throwable {
+    @When("User calls {string} with {string} http request")
+    public void user_calls_something_with_post_http_request(String resource, String method) throws Throwable {
 
+        APIResources resourceAPI = APIResources.valueOf(resource);
+        System.out.println(resourceAPI.getResource());
         resSpec = (ResponseSpecification) new ResponseSpecBuilder().
                 expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
-        res = response.when().post("/maps/api/place/add/json")
-                .then().spec(resSpec).extract().response();
+        if (method.equalsIgnoreCase("Post")) {
+            res = response.when().post(resourceAPI.getResource());
+        }
+        else if(method.equalsIgnoreCase("get")){
+            res = response.when().get(resourceAPI.getResource());
+        }
+               // .then().spec(resSpec).extract().response();
     }
 
     @Then("^The API call with success status code 200$")
