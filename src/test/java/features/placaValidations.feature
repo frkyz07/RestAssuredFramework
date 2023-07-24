@@ -9,7 +9,8 @@ Feature: Validating Place API's
     And "scope" call should be "APP"
     Examples:
       |name  |language |address           |
-      |Ahouse |English  |World Cross Center|
+      |House A |English  |World Cross Center|
+      |House B |Spanish  |Corum             |
 
 
 
