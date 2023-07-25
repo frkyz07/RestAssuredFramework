@@ -64,7 +64,6 @@ public class StepDefinitions extends Utils{
     public void the_api_call_with_success_status_code_200() throws Throwable {
         assertEquals(res.getStatusCode(),200);
     }
-
     @And("^\"([^\"]*)\" call should be \"([^\"]*)\"$")
     public void something_call_should_be_something(String key, String value) throws Throwable {
 
