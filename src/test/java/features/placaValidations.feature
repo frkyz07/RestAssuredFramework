@@ -13,6 +13,9 @@ Feature: Validating Place API's
       |House A |English  |World Cross Center|
    #   |House B |Spanish  |Corum             |
 
+  Scenario: Verify if deletePlace functionality is working
 
-
-
+    Given DeletePlace payload
+    When User calls "deletePlaceAPI" with "Post" http request
+    Then The API call with success status code 200
+    And "status" call should be "OK"
