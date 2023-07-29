@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- new test case added and executed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- cucumber preconditions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logging.text" beforeDir="false" afterPath="$PROJECT_DIR$/logging.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/placaValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/placaValidations.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690368651169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- cucumber preconditions added">
+      <created>1690369999405</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690369999406</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +174,7 @@
     <MESSAGE value="- enum class implementation" />
     <MESSAGE value="- added an end to end test" />
     <MESSAGE value="- new test case added and executed" />
-    <option name="LAST_COMMIT_MESSAGE" value="- new test case added and executed" />
+    <MESSAGE value="- cucumber preconditions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- cucumber preconditions added" />
   </component>
 </project>
