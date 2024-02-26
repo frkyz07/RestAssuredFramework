@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- cucumber html report implementation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/graphQLTest/FirstGraphQLTest.java" afterDir="false" />
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- long time no see - graphQL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/excelDataDrive/excelData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FirstGraphQLTest">
+  <component name="RunManager" selected="Application.excelData">
     <configuration name="FirstGraphQLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphQLTest.FirstGraphQLTest" />
       <module name="RestAssuredFramework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graphQLTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="excelData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excelDataDrive.excelData" />
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excelDataDrive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,9 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="excelDataDrive in RestAssuredFramework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excelDataDrive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="excelDataDrive" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.excelData" />
         <item itemvalue="Application.FirstGraphQLTest" />
+        <item itemvalue="JUnit.excelDataDrive in RestAssuredFramework" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
@@ -169,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690638089252</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- long time no see - graphQL">
+      <created>1708685048872</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708685048872</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +232,7 @@
     <MESSAGE value="- new test case added and executed" />
     <MESSAGE value="- cucumber preconditions added" />
     <MESSAGE value="- cucumber html report implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- cucumber html report implementation" />
+    <MESSAGE value="- long time no see - graphQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="- long time no see - graphQL" />
   </component>
 </project>
