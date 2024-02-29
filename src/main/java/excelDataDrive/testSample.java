@@ -10,7 +10,7 @@ public class testSample {
         excelData ed = new excelData();
         System.out.println(ed.getData("Add Profile"));
         ArrayList al = ed.getData("Purchase");
-        System.out.println(al.get(0));
+        System.out.println(al.get(2));
 
     }
 }
