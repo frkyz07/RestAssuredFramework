@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- data driven testing modifications">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/AuthenticationTest.java" afterDir="false" />
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- Authentication implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/excelDataDrive/testSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/excelDataDrive/testSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708946522620</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- Authentication implemented">
+      <created>1709202394580</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709202394581</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +266,8 @@
     <MESSAGE value="- long time no see - graphQL" />
     <MESSAGE value="- data driven testing" />
     <MESSAGE value="- data driven testing modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="- data driven testing modifications" />
+    <MESSAGE value="- Authentication implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Authentication implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
