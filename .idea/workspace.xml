@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- Authentication implemented">
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="- getting ready for the jenkins">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.text" beforeDir="false" afterPath="$PROJECT_DIR$/logging.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/placaValidations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/placaValidations.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AuthenticationTest">
-    <configuration name="AuthenticationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="resources.AuthenticationTest" />
-      <module name="RestAssuredFramework" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: placaValidations (1)">
+    <configuration name="org.example.AuthenticationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthenticationTest" />
+      <module name="DataDriven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="resources.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +62,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstGraphQLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphQLTest.FirstGraphQLTest" />
+    <configuration name="Feature: placaValidations (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/placaValidations.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssuredFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: placaValidations" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphQLTest.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +81,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="excelData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelDataDrive.excelData" />
+    <configuration name="Feature: placaValidations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/placaValidations.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssuredFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: placaValidations" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelDataDrive.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelDataDrive.testSample" />
+    <configuration name="Scenario: Verify if place successfully added using AddPlaceAPI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/placaValidations.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssuredFramework" />
+      <option name="NAME_FILTER" value="^Verify if place successfully added using AddPlaceAPI$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify if place successfully added using AddPlaceAPI$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify if place successfully added using AddPlaceAPI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelDataDrive.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,27 +120,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="excelDataDrive in RestAssuredFramework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StepDefinitions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelDataDrive.*" />
+          <option name="PATTERN" value="stepDefinitions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="excelDataDrive" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.StepDefinitions" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AuthenticationTest" />
-        <item itemvalue="Application.testSample" />
-        <item itemvalue="Application.excelData" />
-        <item itemvalue="Application.FirstGraphQLTest" />
-        <item itemvalue="JUnit.excelDataDrive in RestAssuredFramework" />
+        <item itemvalue="Cucumber Java.Feature: placaValidations (1)" />
+        <item itemvalue="JUnit.StepDefinitions" />
+        <item itemvalue="Cucumber Java.Feature: placaValidations" />
+        <item itemvalue="Cucumber Java.Scenario: Verify if place successfully added using AddPlaceAPI" />
+        <item itemvalue="Application.org.example.AuthenticationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709202394581</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- Cleaning the framework">
+      <created>1709287398879</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709287398880</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,32 +303,8 @@
     <MESSAGE value="- data driven testing" />
     <MESSAGE value="- data driven testing modifications" />
     <MESSAGE value="- Authentication implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Authentication implemented" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/excelDataDrive/excelData.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/excelDataDrive/excelData.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/excelDataDrive/excelData.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/excelDataDrive/excelData.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="- Cleaning the framework" />
+    <MESSAGE value="- getting ready for the jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="- getting ready for the jenkins" />
   </component>
 </project>
