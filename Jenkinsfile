@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh  "chmod +x -R ${env.WORKSPACE}"
+                //sh  "chmod +x -R ${env.WORKSPACE}"
                 sh "/Users/farukayaz/Documents/RestAssuredFramework/jenkins/scripts/deliver.sh"
             }
         }
