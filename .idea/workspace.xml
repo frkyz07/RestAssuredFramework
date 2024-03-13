@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="Add 'Deliver' stage">
-      <change beforePath="$PROJECT_DIR$/jenkins/scripts/deliver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deliver.sh" afterDir="false" />
-    </list>
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="Add 'Deliver' stage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -390,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710349307469</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add 'Deliver' stage">
+      <created>1710350138771</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710350138772</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
