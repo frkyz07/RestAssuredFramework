@@ -319,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710345425916</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add 'Deliver' stage">
+      <created>1710345981985</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710345981986</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add 'Deliver' stage">
+      <created>1710346153578</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710346153578</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
