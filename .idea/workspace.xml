@@ -41,6 +41,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jenkins/scripts" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710345101484</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add 'Deliver' stage">
+      <created>1710345425916</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710345425916</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
