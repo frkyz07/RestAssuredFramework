@@ -16,14 +16,12 @@ pipeline {
             post {
                 always {
                     junit 'target/surefire-reports/*.xml'
-                    junit skipPublishingChecks: true, testResults: 'test-results.xml'
 
                 }
             }
         }
         stage('Deliver') {
             steps {
-                sh  "chmod +x -R ${env.WORKSPACE}"
                 sh './jenkins/scripts/deliver.sh'
             }
         }
