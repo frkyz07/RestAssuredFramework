@@ -32,7 +32,7 @@ public class Utils {
     public String getGlobalValue(String key) throws IOException {
 
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("/Users/farukayaz/Documents/RestAssuredFramework/src/test/java/resources/global.properties");
+        FileInputStream fis = new FileInputStream("/Users/farukayaz/IdeaProjects/RestAssuredFramework/src/test/java/resources/global.properties");
         prop.load(fis);
         return prop.getProperty(key);
 
