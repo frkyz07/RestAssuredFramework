@@ -25,6 +25,6 @@ pipeline {
                 sh  "chmod +x -R ${env.WORKSPACE}"
                 sh './jenkins/scripts/deliver.sh'
             }
-        }*/
-    }
+        }
+    }*/
 }
