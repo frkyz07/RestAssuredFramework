@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="Allure report">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a281db36-27a4-4a68-bc52-04efc7b99ac6" name="Changes" comment="Allure report working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -56,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.StepDefinitions.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.StepDefinitions.user_calls_something_with_post_http_request.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -64,7 +62,8 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -535,7 +534,7 @@
       <option name="project" value="LOCAL" />
       <updated>1712596393490</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,6 +570,7 @@
     <MESSAGE value="Add 'Test' stage" />
     <MESSAGE value="Add 'Deliver' stage" />
     <MESSAGE value="Allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allure report" />
+    <MESSAGE value="Allure report working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure report working" />
   </component>
 </project>
