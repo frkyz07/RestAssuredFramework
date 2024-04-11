@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -22,6 +23,7 @@ import resources.Utils;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
+import static java.util.Locale.filter;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Cucumber.class)
@@ -37,7 +39,7 @@ public class StepDefinitions extends Utils{
     public void add_place_payload(String name, String language, String address) throws Throwable {
 
         // request builder used
-        response=given().spec(requestSpecification())
+        response=given().filter(new AllureRestAssured()).spec(requestSpecification())
                 .body(testData.addPlacePayload(name,language,address));
 
     }
