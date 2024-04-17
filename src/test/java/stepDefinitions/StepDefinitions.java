@@ -10,7 +10,6 @@ import io.cucumber.junit.Cucumber;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -79,12 +78,9 @@ public class StepDefinitions extends Utils{
         String actualName = getJsonPath(res,"name");
         assertEquals(expectedName,actualName);
     }
+
     @Given("DeletePlace payload")
     public void delete_place_payload() throws IOException {
-
         response = given().spec(requestSpecification()).body(testData.deletePlacePayload(place_id));
-
     }
-
-
 }

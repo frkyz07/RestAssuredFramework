@@ -21,3 +21,8 @@ Feature: Validating Place API's
     When User calls "deletePlaceAPI" with "Post" http request
     Then The API call with success status code 200
     And "status" call should be "OK"
+
+
+
+
+
